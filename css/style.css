@@ -54,7 +54,9 @@ a:hover{
 .balance-mt-5{
     padding-top: 118px;
 }
-
+.margin-right-0{
+    margin-right: 0px !important;
+}
 /* ///////////////////////////////////////////////////// */
 
 /* navbar start */
@@ -288,6 +290,11 @@ a:hover{
     display: inline-block;
     text-transform: uppercase;
     margin-bottom: 150px;
+    transition: all 0.4s ease-in-out;
+}
+.balance-btn:hover,
+.pregnant-btn:hover{
+    background-color: #ceb8b2;
 }
 .pregnant-container{
     padding-top: 177px;
@@ -439,8 +446,8 @@ a:hover{
 }
 .galery-p{
   font-size:20.83px;
-  letter-spacing: 10;
-  margin-bottom: 0;
+  margin-bottom: 57px;
+
 }
 .galery-overlay{
     margin-top: 56px;
@@ -496,7 +503,7 @@ a:hover{
     transform: translate(-50%,-50%);
 }
 
-.vedio-social-icon-a{
+.vedio-social-icon a{
     background-color: #484F5B;
     color: #fff;
     display: inline-block;
@@ -510,7 +517,7 @@ a:hover{
     margin-right: 52px;
 
 }
-.vedio-social-icon-a:hover{
+.vedio-social-icon a:hover{
     background-color: #38404dfa;
 }
 
@@ -746,6 +753,7 @@ a:hover{
     }
     .galery-p{
         margin-top: 40px;
+        margin-bottom: 30px;
     }
     .card-image{
         height: 256px;
@@ -866,6 +874,7 @@ a:hover{
     }
     .galery-p{
         font-size: 16.83px;
+        margin-bottom: 20px;
     }
     .galery-content{
         padding: 22px 2px;
@@ -900,7 +909,14 @@ a:hover{
  @media(max-width:768px){
     .balance-img{
         height: auto;
-        }
+    }
+    .balance-content,
+    .pregnant-content,
+    .breathing-content,
+    .join-content,
+    .vedio-content{
+        text-align: center;
+    }
     .balance-h1{
         margin-top: 25px;
     }
@@ -909,7 +925,10 @@ a:hover{
     .join-p{
         font-size: 16px;
         margin-top: 22px;
-        margin-bottom: 44px;
+        margin-bottom: 32px;
+    }
+    .pregnant-p{
+        padding-right: 0;
     }
     .balance-btn,
     .pregnant-btn{
@@ -926,7 +945,8 @@ a:hover{
     
     .join-small-img-position{
         display: none;
-    }   
+    }  
+   
  }
 
 
@@ -1003,7 +1023,7 @@ a:hover{
    .vedio-left-bg{
        height: 216px;
    }
-   .vedio-social-icon-a{
+   .vedio-social-icon a{
        margin-right: 23px;
    }
    .touch-container{
@@ -1023,4 +1043,13 @@ a:hover{
         margin-top: 13px;
         margin-bottom: 19px;
     }
+    .footer-text-center{
+        text-align: center;
+    }
  }
+
+
+
+
+
+
